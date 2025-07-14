@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+}
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
